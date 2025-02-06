@@ -1,24 +1,57 @@
 <resources>
     <string name="app_name">Calculator</string>
+
     <string name="calcText">0</string>
-    <string name="btn7">7</string>
-    <string name="btn8">8</string>
-    <string name="btn9">9</string>
-    <string name="btnC">C</string>
-    <string name="btnSqrt">\u221A</string>
-    <string name="btn4">4</string>
-    <string name="btn5">5</string>
-    <string name="btn6">6</string>
-    <string name="btnDiv">\u00F7</string>
-    <string name="btnPer">%</string>
-    <string name="btnMult">\u00D7</string>
-    <string name="btnMin">-</string>
-    <string name="btn3">3</string>
-    <string name="btn2">2</string>
-    <string name="btn1">1</string>
-    <string name="btn0">0</string>
-    <string name="btnDec">.</string>
-    <string name="btnEqls">=</string>
-    <string name="btnSign">\u00B1</string>
-    <string name="btnPlus">+</string>
+
+    <string-array name="textStrings">
+        <item name="btn7">7</item>
+        <item name="btn8">8</item>
+        <item name="btn9">9</item>
+        <item name="btnSqrt">\u221A</item>
+        <item name="btnC">C</item>
+
+        <item name="btn4">4</item>
+        <item name="btn5">5</item>
+        <item name="btn6">6</item>
+        <item name="btnDiv">\u00F7</item>
+        <item name="btnPer">%</item>
+
+        <item name="btn1">1</item>
+        <item name="btn2">2</item>
+        <item name="btn3">3</item>
+        <item name="btnMult">\u00D7</item>
+        <item name="btnMin">-</item>
+
+        <item name="btnSign">\u00B1</item>
+        <item name="btn0">0</item>
+        <item name="btnDec">.</item>
+        <item name="btnPlus">+</item>
+        <item name="btnEqls">=</item>
+    </string-array>
+
+    <string-array name="tagStrings">
+        <item name="btn7">btn7</item>
+        <item name="btn8">btn8</item>
+        <item name="btn9">btn9</item>
+        <item name="btnSqrt">btnSqrt</item>
+        <item name="btnC">btnC</item>
+
+        <item name="btn4">btn4</item>
+        <item name="btn5">btn5</item>
+        <item name="btn6">btn6</item>
+        <item name="btnDiv">btnDiv</item>
+        <item name="btnPer">btnPer</item>
+
+        <item name="btn1">btn1</item>
+        <item name="btn2">btn2</item>
+        <item name="btn3">btn3</item>
+        <item name="btnMult">btnMult</item>
+        <item name="btnMin">btnMin</item>
+
+        <item name="btnSign">btnSign</item>
+        <item name="btn0">btn0</item>
+        <item name="btnDec">btnDec</item>
+        <item name="btnPlus">btnPlus</item>
+        <item name="btnEqls">btnEqls</item>
+    </string-array>
 </resources>
