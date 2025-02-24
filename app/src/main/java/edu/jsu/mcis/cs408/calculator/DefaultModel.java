@@ -146,6 +146,9 @@ public class DefaultModel extends AbstractModel {
         }
 
         else if(state == RESULT){
+            state = LHAND;
+            lhand = "";
+            rhand = "";
             lhand = numAppend(lhand, digit, CHAR_LIMIT);
         }
         Log.i(MODEL_TAG, "lhand = " + lhand);
